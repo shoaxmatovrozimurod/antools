@@ -27,6 +27,16 @@
     align-items: center;
     text-align: center;
 }
+.header{
+    padding: 12px;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    box-shadow: 3px 6px 7px black;
+}
 .header__container{
     display: flex;
     align-items: center;
@@ -43,4 +53,7 @@
     display: flex;
     align-items: center;
     gap: 66px;
+}
+.header__btn{
+    padding: 12px 29px;
 }
