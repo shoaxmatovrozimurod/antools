@@ -27,3 +27,20 @@
     align-items: center;
     text-align: center;
 }
+.header__container{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.header__list{
+
+    display: flex;
+    align-items: center;
+    gap: 66px;
+}
