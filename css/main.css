@@ -30,12 +30,12 @@
 .header{
     padding: 12px;
     position: fixed;
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     top: 0;
     left: 0;
     right: 0;
     z-index: 111;
-    box-shadow: 3px 6px 7px black;
+    box-shadow: 3px 6px 7px rgb(55, 55, 55);
 }
 .header__container{
     display: flex;
@@ -49,11 +49,38 @@
     gap: 11px;
 }
 .header__list{
-
     display: flex;
     align-items: center;
     gap: 66px;
 }
 .header__btn{
-    padding: 12px 29px;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 9px;
+    color: #ffff;
+    opacity: 0.6;
+    background-color: rgb(21, 21, 21);
+    transition: transform 0.3s ease;
+}
+.header__btn:hover{
+    background-color: #FF6E30;
+    opacity: 1;
+}
+.header__text__logo{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: aliceblue;
+}
+.header__item__link{
+    font-family: "Poppins",sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffff;
+    opacity: 0.5;
 }
