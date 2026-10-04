@@ -119,7 +119,6 @@
     box-shadow: 0 6px 16px rgba(255, 110, 48, 0.4);
 }
 
-/* Burger Menu Styles */
 .bars {
     display: none;
     flex-direction: column;
@@ -136,7 +135,6 @@
     border-radius: 2px;
 }
 
-/* Responsive (Media Queries) */
 @media (max-width: 992px) {
     .header__nav {
         gap: 25px;
@@ -194,7 +192,6 @@
         padding: 12px;
     }
 
-    /* Burger Animation */
     .bars.active .bar:nth-child(1) {
         transform: rotate(45deg) translate(6px, 6px);
     }
