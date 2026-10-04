@@ -1,4 +1,4 @@
-]const menuToggle = document.getElementById('menuToggle');
+const menuToggle = document.getElementById('menuToggle');
 const headerNav = document.getElementById('headerNav');
 const navLinks = document.querySelectorAll('.header__item__link');
 
