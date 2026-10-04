@@ -14,18 +14,25 @@
         <h1 class="visually__hidden">Sahifa haqida</h1>
         <div class="container">
             <div class="header__container">
-                <a class="header__logo" href="#"><img src="./images/logo.png" alt="logo">
+                <a class="header__logo" href="#">
+                    <img src="./images/logo.png" alt="logo" onerror="this.src='https://via.placeholder.com/40'">
                     <p class="header__text__logo">antools</p>
                 </a>
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__item__link" href="#">Home</a></li>
-                    <li class="header__item"><a class="header__item__link" href="#">Catagories</a></li>
-                    <li class="header__item"><a class="header__item__link" href="#">My colections</a></li>
-                    <li class="header__item"><a class="header__item__link" href="#">Blog</a></li>
-                </ul>
-                <button class="header__btn">Login</button>
-                <button class="header__btn">Sign Up</button>
-                <div class="bars">
+
+                <div class="header__nav" id="headerNav">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__item__link active" href="#">Home</a></li>
+                        <li class="header__item"><a class="header__item__link" href="#">Catagories</a></li>
+                        <li class="header__item"><a class="header__item__link" href="#">My colections</a></li>
+                        <li class="header__item"><a class="header__item__link" href="#">Blog</a></li>
+                    </ul>
+                    <div class="header__actions">
+                        <button class="header__btn">Login</button>
+                        <button class="header__btn">Sign Up</button>
+                    </div>
+                </div>
+
+                <div class="bars" id="menuToggle">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
