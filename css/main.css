@@ -103,8 +103,9 @@
 }
 
 .header__btn--login:hover {
+    background-color: blue;
     opacity: 1;
-    color: #FF6E30;
+    color: #ffffff;
 }
 
 .header__btn--signup {
