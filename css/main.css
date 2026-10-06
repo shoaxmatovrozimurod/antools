@@ -103,7 +103,7 @@
 }
 
 .header__btn--login:hover {
-    background-color: blue;
+    background-color: #fa4e04;
     opacity: 1;
     color: #ffffff;
 }
